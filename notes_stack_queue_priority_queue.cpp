@@ -84,7 +84,65 @@ Queue:
 		4. rear(): Retrieving the element at the rear of the queue without removing it.
 		5. empty(): return true if queue is empty, otherwise it return false.
 	
+	- Queue is define inside <queue> header file.
+	- There are mainly four types of queue:
+		
+	1. Simple queue (Linear Queue):
+		
+	2. Circular queue:
+		The last position is connected back to the first t omake a circle.
+		- Its prevents wastage of space in a linear queue.
+		
+	3. Priority Queue:
+		Elements are based on priority, not just an order.
+		- Heigher priority elements are dequeued before lower ones.
+		
+	4. Double ended queue( DEqueue ):
+		Insertion and deletion can happen at both ends( front and rear). 
+		- (i). Input restricted queue: Insertion at only onne end.
+		- (ii). Output restricted queue. Deletion from only one end.
+		
+		
+Searching:
+	Search element one by one.
+	They are mainly two type:
+		1. Linear Search:
+			Search element one by one:
+			Complexity:		O(n).
+			
+			Algorithm:
+				(i). 	Start from the first element.
+				(ii).	Compare each element with the target.
+				(iii).	If a match is found , return the index.
+				(iv).	If end is reached without a match, return -1(not found).7
+			
+			
+		2. Binary Search:
+			Divide and conqure on sorted array.
+			Steps:
+				Compare middle --> move left or right
+			Complexity: O( log n ).
+			
+			- Array must be sorted.
 	
+	
+	Sorting:
+		Arranging array elements in incresing or decreasing order is called sorting.
+		
+	1. Selection sort:
+		
+		Algo:
+		(i).	Start from the first element.
+		(ii).	Find the smallest element in the unsorted part of the array.
+		(iii).	Swap it with the first element of the unsorted part.
+		(iv).	Move the boundary of the sorted part by one.
+		(v).	Repeat until the entire array is sorted.
+		
+		- Complexity:
+			- Best case: O( n^2 );
+			- Avg case: O( n^2 );
+			- Worst case: O( n^2 );
+	 
 	
 	
 	
